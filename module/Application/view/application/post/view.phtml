@@ -1,0 +1,25 @@
+
+
+<a href="
+    <?= $this->url('posts', ['action'=>'index']); ?>">
+    &lt;&lt; Back to list of posts
+</a>
+
+<h1>
+    <?= $this->escapeHtml($post->getTitle()); ?>
+</h1>
+
+
+
+
+<p>
+    <?= $this->escapeHtml($post->getContent()); ?>
+</p>
+
+
+
+
+<hr>
+
+
+</div>
